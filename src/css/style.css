@@ -1,0 +1,97 @@
+/* header */
+.not-found {
+    color: #333;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.12rem;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+    margin-left: 5rem;
+    margin-bottom: 2.5rem;
+}
+
+/* main */
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .scarecrow img{
+    width: 25rem;
+    height: 21rem;
+    margin: 5rem 7rem 10rem 5rem;
+}
+
+/* main text */
+.text-content {
+    display: flex;
+    flex-direction: column;
+    width: 38rem;
+    align-items: center;
+    justify-content: ;
+}
+
+.text-content .text {
+    color: #333;
+    font-family: "Space Mono";
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.14rem;
+    margin: 1.5rem;
+}
+
+.text-content .subtext {
+    color: #4F4F4F;
+    font-family: "Space Mono";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.0525rem;
+    margin: 0 2.5rem 4rem 2.5rem;
+}
+
+.text-content .refresh {
+    width: 13.5rem;
+    height: 4.25rem;
+    background: #333;
+    color: #FFF;
+    font-family: "Space Mono";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.03063rem;
+    text-transform: uppercase;
+}
+
+
+/* footer */
+
+footer {
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    bottom: 0;
+}
+
+.disclaimer {
+    color: #BDBDBD;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+/* style="color: #BDBDBD; font-size: 14px; font-family: Montserrat; font-weight: 500; word-wrap: break-word">created by </span><span style="color: #BDBDBD; font-size: 14px; font-family: Montserrat; font-weight: 700; text-decoration: underline; word-wrap: break-word">username</span><span style="color: #BDBDBD; font-size: 14px; font-family: Montserrat; font-weight: 700; word-wrap: break-word"> </span><span style="color: #BDBDBD; font-size: 14px; font-family: Montserrat; font-weight: 500; word-wrap: break-word"> */
+
+/* style="left: 577px; top: 1039px; position: absolute; text-align: center" */
