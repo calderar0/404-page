@@ -1,0 +1,106 @@
+@media screen and (max-width: 1200px){
+    body{
+        width: auto;
+        height: auto;
+        overflow: visible;
+        overflow-x: hidden;
+    }
+    .not-found {
+        margin-top: 1.5rem;
+        margin-left: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content .scarecrow img{
+        width: 285px;
+        height: 220px;
+        margin: 64px 43px 39px 43px;
+    }
+    
+    .text-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-content .text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 48px;
+        width: 350px;
+        height: 142px;
+        margin: 39px 0 15px 20px;
+    }
+
+    .text-content .subtext {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 328px;
+        height: 81px;
+        margin: 15px 23px 33px 20px;
+    }
+
+    .text-content .refresh {
+        width: 216px;
+        height: 68px;
+        font-size: 14px;
+        margin: 33px 135px 57px 100px;
+    }
+
+    footer {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    .not-found {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .content .scarecrow img{
+        width: 265px;
+        height: 200px;
+        margin: 32px 0 39px 0;
+    }
+
+    .text-content {
+        width: 320px;
+        text-align: center;
+    }
+
+    .text-content .text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+        width: 300px;
+        height: 92px;
+        margin: 39px 0 15px 0px;
+    }
+
+    .text-content .subtext {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 300px;
+        height: 81px;
+        margin: 15px 23px 15px 20px;
+    }
+
+    .text-content .refresh {
+        margin-left: 130px;
+    }
+}

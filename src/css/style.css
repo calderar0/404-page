@@ -1,3 +1,10 @@
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
 /* header */
 .not-found {
     color: #333;
@@ -8,9 +15,9 @@
     line-height: normal;
     letter-spacing: -0.12rem;
     text-transform: uppercase;
-    margin-top: 2.5rem;
-    margin-left: 5rem;
-    margin-bottom: 2.5rem;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 /* main */
@@ -23,8 +30,8 @@
 }
 
 .content .scarecrow img{
-    width: 25rem;
-    height: 21rem;
+    width: 440px;
+    height: 315px;
     margin: 5rem 7rem 10rem 5rem;
 }
 
@@ -33,8 +40,6 @@
     display: flex;
     flex-direction: column;
     width: 38rem;
-    align-items: center;
-    justify-content: ;
 }
 
 .text-content .text {
@@ -44,6 +49,8 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    width: 36.625rem;
+    height: 11.875rem;
     letter-spacing: -0.14rem;
     margin: 1.5rem;
 }
@@ -55,8 +62,10 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 23.8125rem;
+    height: 6.75rem;
     letter-spacing: -0.0525rem;
-    margin: 0 2.5rem 4rem 2.5rem;
+    margin: .75rem 2.5rem 2rem 1.506rem;
 }
 
 .text-content .refresh {
@@ -71,16 +80,19 @@
     line-height: normal;
     letter-spacing: -0.03063rem;
     text-transform: uppercase;
+    margin: 1rem 2.5rem 0 1rem;
 }
 
 
 /* footer */
 
 footer {
-    position: absolute;
-    left: 40%;
-    right: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
     bottom: 0;
+    margin-top: 3rem;
 }
 
 .disclaimer {
@@ -91,7 +103,20 @@ footer {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    text-decoration: none;
 }
-/* style="color: #BDBDBD; font-size: 14px; font-family: Montserrat; font-weight: 500; word-wrap: break-word">created by </span><span style="color: #BDBDBD; font-size: 14px; font-family: Montserrat; font-weight: 700; text-decoration: underline; word-wrap: break-word">username</span><span style="color: #BDBDBD; font-size: 14px; font-family: Montserrat; font-weight: 700; word-wrap: break-word"> </span><span style="color: #BDBDBD; font-size: 14px; font-family: Montserrat; font-weight: 500; word-wrap: break-word"> */
 
-/* style="left: 577px; top: 1039px; position: absolute; text-align: center" */
+.disclaimer .github:link {
+    color: #747474;
+    text-decoration: underline;
+}
+
+.disclaimer .github:visited {
+    color: #747474;
+    text-decoration: underline;
+}
+
+.disclaimer .github:hover {
+    color: #a29c9c;
+    text-decoration: underline;    
+}
